@@ -1,7 +1,3 @@
-CASE WESTERN RESERVE UNIVERSITY 
-Case School of Engineering 
-Department of Electrical, Computer and Systems Engineering ECSE 281. Logic Design and Computer Organization (4) 
- 
 Assignment #8 	Due: March 18, 2022 
 PLEASE SUBMIT YOUR WORK AS A SINGLE pdf DOCUMENT ON CANVAS. 
 Part 1: Problems (30 pts) 
