@@ -1,5 +1,3 @@
-Assignment #8 	Due: March 18, 2022 
-PLEASE SUBMIT YOUR WORK AS A SINGLE pdf DOCUMENT ON CANVAS. 
 Part 1: Problems (30 pts) 
 1.	(6 pts) Implement the following functions using only 74x138 binary decoders and NAND gates. 
 𝐹𝐹 = (3,4,5,6,7) 
