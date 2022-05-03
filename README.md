@@ -1,34 +1,5 @@
-Part 1: Problems (30 pts) 
-1.	(6 pts) Implement the following functions using only 74x138 binary decoders and NAND gates. 
-𝐹𝐹 = (3,4,5,6,7) 
-𝐴𝐴,𝐵𝐵,𝐶𝐶
-𝐹𝐹 =  (2,3,4,5,8,10,12,14) 
-𝑊𝑊,𝑋𝑋,𝑌𝑌,𝑍𝑍
-2.	(6 pts) Design a 10-to-4 encoder with the inputs 1-out-of-10 code and outputs coded normally for 0 – 
-7 (binary 0000 - 0111) and 8 is coded as E (1110) and 9 is coded as F (1111). Show the internal circuit.  
- 
-3.	(6 pts) Implement the following function using only a single 4×1 multiplexer and inverters.  
- 
-a   b   c 	F 
-0   0   0 	0 
-0   0   1  	0 
-0   1   0  	1 
-0   1   1 	0 
-1   0  0 	1 
-1   0  1 	1 
- 1   1  0 	0 
- 1   1  1 	1 
-4.	(6 pts)  For the logic expressions given below, find all of the static hazards and design a hazard-free circuit that realizes the same logic function. Write the functions that are hazard free, you do not need to draw the circuit. (Hint: Use Karnaugh maps to find the timing hazards.) 
-F = W⋅X + W′⋅Y′ 
-F = W⋅Y + W′⋅Z′ + X⋅Y′⋅Z 
-5.	(6 pts) Design an 8x1 multiplexer (8 data sources / 1 bit data from each source) using 2x1 multiplexers only. You can use as many 2x1 multiplexers as needed. Clearly label all the inputs and outputs. 
- 
- 
- 
- 
- 
- 
-Part 2: Laboratory (20 pts) 
+
+ Part 2: Laboratory (20 pts) 
 N-bit Carry-Lookahead Adder  
  
 Over the past 2 weeks, we’ve looked at various ways to implement multi-bit adders using a ripple-carry topology.  This week, we will look at how to design the Verilog code for a Carry-Lookahead adder which is a faster, but larger, way to generate the carry information in an adder.  We will design the adder as a single module that can be parametrized and create a testbench for two adder sizes. 
